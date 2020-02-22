@@ -453,7 +453,7 @@ always@(posedge clk_sys) begin
 								1: cd_out[15:0]  <= io_din;
 								2: cd_out[31:16] <= io_din;
 								3: cd_out[47:32] <= io_din;
-	endcase
+						endcase
  				// Reading user_io raw joy
 				'h37: io_dout <= joy_raw; 
 				endcase

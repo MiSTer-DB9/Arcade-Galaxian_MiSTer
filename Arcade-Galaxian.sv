@@ -82,9 +82,9 @@ module emu
 	// 1 - D-/TX
 	// 2..6 - USR2..USR6
 	// Set USER_OUT to 1 to read from USER_IN.
-output	USER_OSD,
-output	USER_MODE,
-input   [7:0] USER_IN,
+	output	USER_OSD,
+	output	USER_MODE,
+	input   [7:0] USER_IN,
 	output  [7:0] USER_OUT
 	
 	
