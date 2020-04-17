@@ -30,3 +30,4 @@ set_global_assignment -name VHDL_FILE rtl/galaxian.vhd
 set_global_assignment -name SDC_FILE rtl/galaxian.sdc
 set_global_assignment -name SYSTEMVERILOG_FILE "Arcade-Galaxian.sv"
 set_global_assignment -name VERILOG_FILE rtl/joydb9md.v
+set_global_assignment -name VERILOG_FILE rtl/joydb15.v
